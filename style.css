@@ -74,3 +74,46 @@ button {
 /* banner image design end  */
 
 /* header part design end  */
+
+/* 
+----------------------------------------------------------
+        --------------------------------------------------
+----------------------------------------------------------
+ */
+
+/* quick list and feature part design start  */
+
+.features-container {
+    display: flex;
+    padding: 5.3em 15em 0 15em;
+}
+
+.features-contents {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 4.75em;
+
+}
+
+
+.team-images-container {
+    width: 50%;
+}
+
+.team-images-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.team-images-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+
+
+
+
+/* quick list and feature part design end  */
