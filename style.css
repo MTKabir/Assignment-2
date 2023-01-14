@@ -198,3 +198,33 @@ button {
         --------------------------------------------------
 ----------------------------------------------------------
  */
+
+/* our sponsor part design start  */
+.sponsor-container {
+    text-align: center;
+    padding: 0 15em;
+}
+
+.sponsor-images-container {
+    display: flex;
+    align-items: center;
+}
+
+.sponsor-images-container div {
+    padding: 3em;
+}
+
+.sponsor-images-container img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* our sponsor part design end  */
+
+/* 
+----------------------------------------------------------
+        --------------------------------------------------
+----------------------------------------------------------
+ */
