@@ -1,0 +1,76 @@
+/* reset the browser default margin and padding   */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* apply the google font work sans  */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header part design start  */
+
+/* nav part design start  */
+
+.header-container {
+    background-color: #FFF4E7;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 13em 3em 15em;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items li {
+    list-style-type: none;
+    padding-right: 2em;
+}
+
+/* nav part design end  */
+
+/* header content start  */
+.header-content {
+    text-align: center;
+}
+
+.button-explore {
+    background-color: #FF900E;
+    border: none;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.button-explore h1,
+p,
+button {
+    margin-bottom: 1em;
+}
+
+/* header content end  */
+
+/* banner image design start  */
+.banner-img-container {
+    padding: 2em 15em 3em 15em;
+}
+
+.banner-img-container img {
+    width: 100%;
+}
+
+/* banner image design end  */
+
+/* header part design end  */
