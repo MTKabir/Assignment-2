@@ -94,6 +94,7 @@ button {
     align-items: center;
     margin-left: 4.75em;
 
+
 }
 
 
@@ -242,3 +243,125 @@ button {
 
 
 }
+
+
+
+/* media query for mobile  */
+
+@media screen and (max-width:576px) {
+
+    /* header part start  */
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 2em 2em;
+
+    }
+
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .nav-items ul {
+        width: 100%;
+        padding: 1em;
+        display: flex;
+        justify-content: end;
+    }
+
+    .header-content {
+        padding: 0 2em;
+    }
+
+    .banner-img-container {
+        padding: 2em 2em;
+
+    }
+
+    /* header part end  */
+
+    /* list of features start  */
+    .features-container {
+        display: flex;
+        flex-direction: column;
+        padding: 4em 2em;
+    }
+
+
+    .team-images-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .features-contents {
+        padding-top: 2em;
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+
+    /* list of features end  */
+
+    /* features you will loved design start  */
+    .loved-feature-container {
+        padding: 0px 2em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-feature-container {
+        width: 100%;
+    }
+
+    .rignt-feature-container {
+        width: 100%;
+    }
+
+    /* features you will loved design end  */
+
+
+    /* some facts section design start  */
+    .some-facts-container {
+        padding: 0px 2em;
+    }
+
+    .our-achievements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-achievements div {
+        margin: 1em 0;
+
+    }
+
+    /* some facts section design end  */
+
+    /* sponsor part design start */
+    .sponsor-container {
+        padding: 2em 2em;
+    }
+
+    .sponsor-images-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /* sponsor part design end  */
+
+    /* footer design  */
+    .footer {
+        padding: 2em 2em;
+    }
+
+    /* footer end  */
+}
+
+/* media query for tablet  */
+@media screen and (min-width:577px) and (max-width:991px) {}
