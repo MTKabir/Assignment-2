@@ -156,11 +156,30 @@ button {
 }
 
 .rignt-feature-container {
+    position: relative;
     width: 50%;
 }
 
 .rignt-feature-container img {
     width: 100%;
+}
+
+.btn-experience-container {
+    position: absolute;
+    top: 40%;
+    left: -2em;
+}
+
+.btn-font-size {
+    font-size: 35px;
+}
+
+.button-10plus {
+    background-color: #FF900E;
+    border-style: none;
+    padding: 2.5em;
+    color: white;
+    border-radius: 0.8em;
 }
 
 /* feature you will love and enjoy section end  */
@@ -170,7 +189,7 @@ button {
 ----------------------------------------------------------
  */
 
-/* some part section design start  */
+/* some facts part section design start  */
 .some-facts-container {
     padding: 8em 15em 8em 15em;
 }
@@ -191,7 +210,13 @@ button {
     border-radius: 0.8em;
 }
 
-/* some part section design end */
+.our-achievements div:hover {
+    background-color: #FF900E;
+    transform: rotate(20deg);
+    transition: transform 0.5s ease-in;
+}
+
+/* some facts part section design end */
 
 
 /* 
@@ -362,6 +387,3 @@ button {
 
     /* footer end  */
 }
-
-/* media query for tablet  */
-@media screen and (min-width:577px) and (max-width:991px) {}
