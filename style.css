@@ -228,3 +228,17 @@ button {
         --------------------------------------------------
 ----------------------------------------------------------
  */
+
+/* footer  */
+.footer {
+    padding: 5em 15em 15em 15em;
+
+}
+
+.footer-content {
+    background-color: #FEECDE;
+    padding: 1em;
+    text-align: center;
+
+
+}
