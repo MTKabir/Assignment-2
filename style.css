@@ -223,6 +223,43 @@ button {
 ----------------------------------------------------------
         --------------------------------------------------
 ----------------------------------------------------------
+
+ */
+/* bonus part start  */
+.bonus-container {
+    padding: 0 15em 4em 15em;
+
+}
+
+.bonus-container>h1 {
+    padding: 0 0 1em 0;
+    text-align: center;
+    font-size: 45px;
+}
+
+.bonus-content-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+}
+
+.bonus-container img {
+    height: 8em;
+    width: 12em;
+}
+
+.bonus-content {
+    text-align: center;
+}
+
+/* bonus part end  */
+
+
+
+/* 
+----------------------------------------------------------
+        --------------------------------------------------
+----------------------------------------------------------
  */
 
 /* our sponsor part design start  */
@@ -366,6 +403,18 @@ button {
     }
 
     /* some facts section design end  */
+
+    /* bonus par star  */
+    .bonus-container {
+        padding: 0 2em;
+    }
+
+    .bonus-content-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* bonus par end  */
 
     /* sponsor part design start */
     .sponsor-container {
